@@ -1,7 +1,49 @@
-.container{
-    
-    border: 3px solid black;
-    border-color: black;
-    background-color: red;
+body {
+    min-width: 100%;
+    height: 100vh;
+}
 
+.card{
+
+
+    /*Do more research on the below*/
+    display: flow-root;
+
+    border: 1px solid #000000;
+    border-radius: 5%;
+
+    /*Do more research on the below*/
+    position: absolute;
+
+    min-width: 200px;
+    min-height: 250px;
+
+    /*2:3 is the best card width ratio*/
+    max-width: 35%;
+    max-height: 43%;
+    
+}
+
+.corner {
+    position: absolute;
+    
+}
+
+.top {
+    text-align: left;
+    top: 5%;
+    left: 5%;
+}
+
+.bottom {
+    text-align: right;
+    bottom: 5%;
+    right: 5%;
+    rotate: 180deg;
+}
+
+.middle{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
 }
