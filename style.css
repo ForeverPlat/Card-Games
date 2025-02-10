@@ -7,13 +7,15 @@ body {
 
 
     /*Do more research on the below*/
-    display: flow-root;
+    /*display: flow-root;*/
+
+    display: inline-block;
 
     border: 1px solid #000000;
     border-radius: 5%;
 
     /*Do more research on the below*/
-    position: absolute;
+    /*position: absolute;*/
 
     min-width: 200px;
     min-height: 250px;
@@ -25,7 +27,7 @@ body {
 }
 
 .corner {
-    position: absolute;
+    position: relative;
     
 }
 

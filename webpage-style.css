@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.history-text {
+    display: inline;
+}
+
+.poker-image {
+    width: 50px;
+    display: inline;
+}
