@@ -14,48 +14,45 @@ body {
 
 .intro-container {
     display: flex;
+    flex: 1;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 
-    flex: 1;
+    
 }
 
 .general-container {
+    background-color: #7a7d7d;
     display: flex;
-    flex-direction: row;
+    flex: 1;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly ;
+    gap: 10%;
 
-    background-color: #7a7d7d;
-
-    flex: 1;
-
+    
 }
 
 .horizontal-card-stack {
+    margin-left: 5%;
+    margin-right: 2.5%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.general-info-text{
-    color: #fffbfe;
-    font-weight: bold;
-
     flex: 1;
 }
 
 
+.general-info-text{
+    margin-right: 5%;
+    margin-left: 2.5%;
+    min-width: 400px;
+    max-width: 750px;
+    flex: 1;
 
+    text-align: justify;
 
-
-
-
-
-
+    
+}
 
 
 
@@ -68,9 +65,15 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+
+    margin-left: 5%;
+    margin-right: 5% ;
 
     flex: 1;
 }
+
+
 
 .gameplay-container {
     display: flex;
