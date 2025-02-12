@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    flex: 1;
+}
+
+.general-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly ;
+
+    background-color: #7a7d7d;
+
+    flex: 1;
+
+}
+
+.horizontal-card-stack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.general-info-text{
+    color: #fffbfe;
+    font-weight: bold;
+
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    flex: 1;
+}
+
+.gameplay-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #7a7d7d;
+
+    flex: 1;
+}
+
+.info-card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5%;
+
+    flex: 1;
+}
+
+.info-card {
+    height: 95%;
+    aspect-ratio: 1/1;
+    display: flex;
+    background-color: lightblue;
+
+}
