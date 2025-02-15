@@ -1,159 +1,148 @@
-body {
+* {
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-
-    height: 450vh;
     margin: 0;
-    padding: 0;
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
 }
 
-
-
-.intro-container {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
-    
+body {
+    height: 600vh;
 }
 
-.general-container {
-    background-color: #7a7d7d;
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-    align-items: center;
-
-
+.section {
+    height: 88vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.poker-image {
-    width: 50%;
+/*consider adding a general info text styling*/
+
+/*intro page*/
+
+#intro-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.horizontal-card-stack {
+.intro-info {
     margin-left: 10%;
     margin-right: 10%;
-
-    height: 30%;
-
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex: 1;
+    align-self: center;
 }
 
+.intro-heading {
+    font-size: 5em;
+}
 
-.general-info-text{
-    display: flex;
-    margin-right: 10%;
-    margin-left: 10%; 
-    min-width: 500px;
-    max-width: 750px;
-    flex: 1;
+.intro-text {
+    margin-bottom: 1rem;
+}
 
-    text-align: justify;
+.intro-button {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+
+    background-color: #545454;
+    border: none;
+    border-radius: 3px;
+
     font-weight: bold;
-    color: #fffbfe;
+    color: white;
+}
 
-    
+.intro-button:hover {
+    cursor: pointer;
+    background-color: #636363;
+}
+
+.intro-button:active {
+    opacity: 0.7;
+}
+
+.intro-image-column {
+    align-self: center;
+}
+
+.intro-image {
+    width: 90%;
 }
 
 
-.history-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 
-    margin-left: 25%;
-    margin-right: 25%;
+/*history page*/
 
-    min-width: 500px;
- 
-    flex: 1;
+#history-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: #d9d9d9;
+}
+
+.history-image-column {
+    margin-left: 10%;
+}
+
+.history-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.history-info {
+    margin-left: 10%;
+    margin-right: 10%;
+    align-self: center;
+}
+
+.history-heading {
+    font-size: 2em;
+
+    margin-bottom: 1rem;
 }
 
 .history-text {
-    text-align: justify;
-
-    min-width: 500px;
-    max-width: 550px;
+    width: 80%;
 }
 
+/*gameplay page*/
 
 
+#gameplay-page {
+    display: grid;
+    grid-template-rows: 1fr 3.5fr;
 
-
-
-
-.gameplay-container {
-    background-color: #7a7d7d;
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
     align-items: center;
-    
-
 }
 
-
-.video-container{
+.gameplay-heading-row {
     margin-left: 10%;
     margin-right: 10%;
+
+    align-self: flex-end;
+}
+
+.gameplay-heading {
+    justify-self: center; 
+
+    font-size: 2em;
+    margin-bottom: 1rem;  
+}
+
+.gameplay-info {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5%;
+
+    align-self: flex-start;
     justify-content: center;
-    display: flex;
-    flex: 1;
-
 }
 
+.gameplay-info-text {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
 
-.video-info-text {
-    display: flex;
-    flex-direction: column;
-    margin-right: 10%;
-    margin-left: 10%; 
-    min-width: 500px;
-    max-width: 750px;
-    flex: 1;
-
-    text-align: justify;
-
-
+    width: 23%;
+    min-width: 10rem;
 }
-
-
-
-
-
-
-
-.info-card-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 5%;
-
-    flex: 1;
-}
-
-.info-card {
-    height: 50%;
-    width: 20%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: lightblue;
-
-}
-
-
