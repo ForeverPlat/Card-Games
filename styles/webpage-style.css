@@ -1,13 +1,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 
-    height: 100vh;
+    height: 450vh;
     margin: 0;
     padding: 0;
 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+
 }
 
 
@@ -29,35 +30,41 @@ body {
     flex: 1;
     flex-wrap: wrap;
     align-items: center;
-    gap: 10%;
 
-    
+
+}
+
+.poker-image {
+    width: 50%;
 }
 
 .horizontal-card-stack {
-    margin-left: 5%;
-    margin-right: 2.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    height: 30%;
+
+    align-items: center;
+    justify-content: center;
     display: flex;
     flex: 1;
 }
 
 
 .general-info-text{
-    margin-right: 5%;
-    margin-left: 2.5%;
-    min-width: 400px;
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%; 
+    min-width: 500px;
     max-width: 750px;
     flex: 1;
 
     text-align: justify;
+    font-weight: bold;
+    color: #fffbfe;
 
     
 }
-
-
-
-
-
 
 
 .history-container {
@@ -67,24 +74,67 @@ body {
     justify-content: center;
     text-align: center;
 
-    margin-left: 5%;
-    margin-right: 5% ;
+    margin-left: 25%;
+    margin-right: 25%;
 
+    min-width: 500px;
+ 
     flex: 1;
 }
+
+.history-text {
+    text-align: justify;
+
+    min-width: 500px;
+    max-width: 550px;
+}
+
+
+
+
 
 
 
 .gameplay-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    
     background-color: #7a7d7d;
-
+    display: flex;
     flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
 }
+
+
+.video-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+
+}
+
+
+.video-info-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-left: 10%; 
+    min-width: 500px;
+    max-width: 750px;
+    flex: 1;
+
+    text-align: justify;
+
+
+}
+
+
+
+
+
+
 
 .info-card-container {
     display: flex;
@@ -97,9 +147,13 @@ body {
 }
 
 .info-card {
-    height: 95%;
-    aspect-ratio: 1/1;
+    height: 50%;
+    width: 20%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     background-color: lightblue;
 
 }
+
+
