@@ -278,6 +278,36 @@ body {
 
 
 #term-page {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+
     background-color: #a6a6a6;
+    align-items: center;
+}
+
+.term-heading-row {
+    font-size: 2em;
+    align-self: flex-end;
+    justify-self: center;
+
+}
+
+.term-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-self: flex-start;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3rem;
+
+    text-align: center;
+}
+
+.term-box {
+    margin-left: 15%;
+    margin-right: 15%;
+
+    margin-bottom: 10%;
 }
 
