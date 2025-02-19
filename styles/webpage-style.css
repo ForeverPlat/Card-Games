@@ -82,6 +82,9 @@ body {
     grid-template-columns: 1fr 1fr;
 
     background-color: #7c8082;
+    
+    color: white;
+    font-weight: bold;
 }
 
 .history-image-column {
