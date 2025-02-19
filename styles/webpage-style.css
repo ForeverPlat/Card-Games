@@ -311,3 +311,7 @@ body {
     margin-bottom: 10%;
 }
 
+.term-box-heading {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}

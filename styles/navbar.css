@@ -1,0 +1,41 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    margin-top: 1%;
+    font-size: 1.25rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-left-section {
+    display: flex;
+    flex: 1;    
+
+    justify-content: center;
+}
+
+
+.nav-right-section {
+    display: flex;
+    flex: 3;
+
+    justify-content:space-around;
+}
+
+
