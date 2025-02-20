@@ -8,8 +8,15 @@
 
     justify-content: space-between;
 
-    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     font-size: 1.25rem;
+
+    background-color: #d8d8d8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 a:link {
