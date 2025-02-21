@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+
+    <link rel="stylesheet" href="/styles/form.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    
+
+</head>
+<body>
+
+    <nav class="nav-bar">
+        <div class="nav-left-section">
+            <a class="home-button" href="/html/index.html">Home</a>
+        </div>
+
+        <div class="nav-right-section">
+            <a href="/html/index-poker.html">Poker</a>
+            <a href="#">Bridge</a>
+            <a href="#">Sevens</a>
+        </div>
+    </nav>
+
+
+    <form action="mailto:laeeqladha15@gmail.com" method="post">
+
+        <br>
+        <br>
+
+        <h1> Contact Form</h1>
+        
+        <label for="salutation">Salutation:</label>
+        <select id="salutation" name="salutation" required>
+            <option value="">Select</option>
+            <option value="Mr.">Mr.</option>
+            <option value="Ms.">Ms.</option>
+            <option value="Mrs.">Mrs.</option>
+            <option value="Dr.">Dr.</option>
+        </select>
+        
+        <br>
+        <br>
+        
+
+        
+        <label for="first-name">First Name:</label>
+        <input type="text"  name="first-name" required autofocus>
+        
+        <br>
+        <br>
+        
+        <label>Last Name:</label>
+        <input type="text"  name="last-name" required>
+        
+        <br>
+        <br>
+        
+        <label>Phone Number:</label>
+        <input type="tel"  name="phone" placeholder="123-456-7890" required pattern="\d{3}-\d{3}-\d{4}">
+        
+        <br>
+        <br>
+        
+        <label>Email:</label>
+        <input type="email"  name="email" placeholder="example@email.com" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+        
+        <br>
+        <br>
+        
+        <label>Subject:</label>
+        <input type="text" name="subject" required>
+        
+        <br>
+        <br>
+        
+        
+        <br>
+
+        <label>Message:</label>
+        <input type="text" id="message" name="message" required>
+        
+        <br>
+        <br>
+        
+        <fieldset>
+            <legend>Contact Preference:</legend>
+
+            
+            <input type="radio" class ="radio-buttons" name="contact-method" value="phone" required>
+            <label>Phone</label>
+
+            <br>
+
+            
+            <input type="radio"  class ="radio-buttons" name="contact-method" value="email" required>
+            <label>Email</label>
+            
+        </fieldset>
+        
+        <br>
+        <br>
+        
+        <fieldset>
+            <legend>Topics of Interest:</legend>
+
+            
+            <input type="checkbox" class = "checkbox" name="topics" value="support">
+            <label>Customer Support</label>
+
+            <br>
+
+            
+            <input type="checkbox" class = "checkbox" name="topics" value="feedback">
+            <label>Feedback</label>
+        
+        </fieldset>
+        
+        <br>
+        <br>
+
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+        
+    </form>
+</body>
+</html>
