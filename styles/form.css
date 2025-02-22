@@ -50,6 +50,11 @@ input, select {
     font-size: 16px;
 }
 
+.label-heading {
+    align-self: start;
+    margin-left: 10px;
+}
+
 .checkbox{
     width: 10%;
 }
@@ -75,9 +80,9 @@ legend {
 
 
 .buttons {
-    margin-left: 30%;
     display: flex;
     width: 95%;
+    column-gap: 12px;
 }
 
 button {
