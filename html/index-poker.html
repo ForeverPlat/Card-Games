@@ -16,18 +16,20 @@
 </head>
 <body>
 
-    <nav class="nav-bar">
-        <div class="nav-left-section">
-            <a class="home-button" href="/html/index.html">Home</a>
-        </div>
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-left-section">
+                <a class="home-button" href="/html/index.html">Home</a>
+            </div>
 
-        <div class="nav-right-section">
-            <a href="#history-page">History</a>
-            <a href="#gameplay-page">Gameplay</a>
-            <a href="#">Hand Values</a>
-        </div>
-    </nav>
-
+            <div class="nav-right-section">
+                <a href="#history-page">History</a>
+                <a href="#gameplay-page">Gameplay</a>
+                <a href="#">Hand Values</a>
+            </div>
+        </nav>
+    </header>
+    
     <div class="section" id="intro-page">
         <div class="intro-info">
             <h1 class="intro-heading">
@@ -57,60 +59,64 @@
             <h3 class="history-heading">
                 History
             </h3>
-            <p class="history-text">
-                Poker's origins can be traced back to the early 19th century in the United States, 
-                where it was played in riverboats and saloons along the Mississippi River. 
-                Some historians believe its roots go even further, 
-                with influences from Persian card games like As-Nas and European games like Poque and Brag.
+            <article>
+                <p class="history-text">
+                    Poker's origins can be traced back to the early 19th century in the United States, 
+                    where it was played in riverboats and saloons along the Mississippi River. 
+                    Some historians believe its roots go even further, 
+                    with influences from Persian card games like As-Nas and European games like Poque and Brag.
 
-                <br>
-                <br>
+                    <br>
+                    <br>
 
-                During the American Civil War, soldiers played poker to pass the time, popularizing it across different states.
-                Over the decades, poker evolved with the introduction of new variants, betting structures, and strategies. 
-                The advent of online poker in the late 1990s brought a new wave of players, 
-                making it accessible to anyone with an internet connection. Today, poker is a global phenomenon, 
-                featured in high-stakes tournaments, television broadcasts, 
-                and online platforms where millions of players compete for glory and financial rewards.
+                    During the American Civil War, soldiers played poker to pass the time, popularizing it across different states.
+                    Over the decades, poker evolved with the introduction of new variants, betting structures, and strategies. 
+                    The advent of online poker in the late 1990s brought a new wave of players, 
+                    making it accessible to anyone with an internet connection. Today, poker is a global phenomenon, 
+                    featured in high-stakes tournaments, television broadcasts, 
+                    and online platforms where millions of players compete for glory and financial rewards.
 
-                <br>
-                <br>
+                    <br>
+                    <br>
 
-                From its humble beginnings as a casual gambling game to its status as a competitive mind sport, 
-                poker has stood the test of time as one of the most engaging and strategic card games ever created.
-            </p>
+                    From its humble beginnings as a casual gambling game to its status as a competitive mind sport, 
+                    poker has stood the test of time as one of the most engaging and strategic card games ever created.
+                </p>
+            </article>
         </div>
     </div>
 
-    <div class="section" id="gameplay-page">
-        <div class="gameplay-heading-row">
-            <h2 class="gameplay-heading">
-                Gameplay
-            </h2>
-        </div>
-        <div class="gameplay-info">
-            <p class="gameplay-info-text">
-                Poker is a game of both skill and luck, 
-                where players compete to win chips by forming the best possible hand or by convincing their opponents to fold. 
-                The game is played with a standard 52-card deck and can accommodate two to ten players at a table. 
-                The most widely played version of poker is Texas Hold'em, but other popular variants include Omaha, 
-                Seven-Card Stud, and Five-Card Draw.
-            </p>
-            <p class="gameplay-info-text">
-                Each round of poker consists of several betting phases, where players must decide whether to bet, 
-                call, raise, or fold based on their cards, the community cards (in some variations), 
-                and their ability to read their opponents. 
-                A key aspect of poker is bluffing—convincing others that you have a stronger hand than you actually do. 
-                Mastering when to bluff and when to fold separates average players from the true experts.
-            </p>
-            <p class="gameplay-info-text">
-                Poker is not just about playing the cards you are dealt—it's about reading the table, 
-                predicting your opponents' moves, and making calculated decisions based on probability and psychology. 
-                Whether you're playing in a home game with friends or facing off in a professional tournament, 
-                understanding the fundamentals of poker gameplay is essential for long-term success.
-            </p>
-        </div>
-    </div>
+    <section class="section" id="gameplay-page">
+        <main>
+            <div class="gameplay-heading-row">
+                <h2 class="gameplay-heading">
+                    Gameplay
+                </h2>
+            </div>
+            <div class="gameplay-info">
+                <p class="gameplay-info-text">
+                    Poker is a game of both skill and luck, 
+                    where players compete to win chips by forming the best possible hand or by convincing their opponents to fold. 
+                    The game is played with a standard 52-card deck and can accommodate two to ten players at a table. 
+                    The most widely played version of poker is Texas Hold'em, but other popular variants include Omaha, 
+                    Seven-Card Stud, and Five-Card Draw.
+                </p>
+                <p class="gameplay-info-text">
+                    Each round of poker consists of several betting phases, where players must decide whether to bet, 
+                    call, raise, or fold based on their cards, the community cards (in some variations), 
+                    and their ability to read their opponents. 
+                    A key aspect of poker is bluffing—convincing others that you have a stronger hand than you actually do. 
+                    Mastering when to bluff and when to fold separates average players from the true experts.
+                </p>
+                <p class="gameplay-info-text">
+                    Poker is not just about playing the cards you are dealt—it's about reading the table, 
+                    predicting your opponents' moves, and making calculated decisions based on probability and psychology. 
+                    Whether you're playing in a home game with friends or facing off in a professional tournament, 
+                    understanding the fundamentals of poker gameplay is essential for long-term success.
+                </p>
+            </div>
+        </main>
+    </section>
 
     <div class="section" id="strategies">
         <div class="strategy-box">
@@ -219,42 +225,42 @@
 
         <div class="player-boxes">
             
-            <div class="player-box">
+            <figure class="player-box">
                 <img class="player-image" src="/res/famous-players/Daniel-Negreanu.jpg" alt="Daniel-Negreanu">
-                <p class="player-text">
+                <figcaption class="player-text">
                     Daniel Negreanu
-                </p>
-            </div> 
-            <div class="player-box">
+                </figcaption>
+            </figure> 
+            <figure class="player-box">
                 <img class="player-image" src="/res/famous-players/Phil-Ivey.jpg" alt="Phil-Ivey">
-                <p class="player-text">
+                <figcaption class="player-text">
                     Phil Ivey
-                </p>
-            </div>
-            <div class="player-box">
+                </figcaption>
+            </figure>
+            <figure class="player-box">
                 <img class="player-image" src="/res/famous-players/Phil-Hellmuth.jpg" alt="Phil-Hellmuth">
-                <p class="player-text">
+                <figcaption class="player-text">
                     Phil Hellmuth
-                </p>
-            </div>
-            <div class="player-box">
+                </figcaption>
+            </figure>
+            <figure class="player-box">
                 <img class="player-image" src="/res/famous-players/Erik-Seidel.jpg" alt="Erik-Seidel">
-                <p class="player-text">
+                <figcaption class="player-text">
                     Erik Seidel
-                </p>
-            </div>
-            <div class="player-box">
+                </figcaption>
+            </figure>
+            <figure class="player-box">
                 <img class="player-image" src="/res/famous-players/Doyle-Brunson.jpg" alt="Doyle-Brunson">
-                <p class="player-text">
+                <figcaption class="player-text">
                     Doyle Brunson
-                </p>
-            </div>
-            <div class="player-box">
+                </figcaption>
+            </figure>
+            <figure class="player-box">
                 <img class="player-image" src="/res/famous-players/Justin-Bonomo.jpg" alt="Justin-Bonomo">
-                <p class="player-text">
+                <figcaption class="player-text">
                     Justin Bonomo
-                </p>
-            </div>
+                </figcaption>
+            </figure>
         </div>
     </div>
 

@@ -118,7 +118,7 @@ body {
 
 #gameplay-page {
     display: grid;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: 1fr;
 
     align-items: center;
 }
@@ -131,7 +131,7 @@ body {
 }
 
 .gameplay-heading {
-    font-size: 2em;
+    font-size: 2.5em;
 
     justify-self: center; 
 
@@ -260,7 +260,7 @@ body {
     text-align: center;
 }
 
-.player-box p {
+.player-text {
     background-color: #7d7979;
     border: 5px;
     border-color: black;
