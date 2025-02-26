@@ -17,9 +17,23 @@ body {
     height: 100%;
 }
 
-.card-text {
+.card-description-text {
+    opacity: 0;
     text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+
+    transition: opacity 0.5s;
+    margin-top: 3%;
 }
+
+.card-text-container:hover p{
+    opacity: 1;
+}
+
+
+
 
 footer{
     text-align: center;
