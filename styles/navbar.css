@@ -13,7 +13,7 @@
     padding-bottom: 1%;
     font-size: 1.25rem;
 
-    background-color: #d8d8d8;
+    background-color: #2E3234;
     position: fixed;
     left: 0;
     right: 0;
@@ -25,13 +25,14 @@
 
 a:link {
     text-decoration: none;
-    color: black;
-    font-weight: 550;
+    color: white;
+    font-weight: 500;
 }
 
 a:visited {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-weight: 500;
 }
 
 a:hover {

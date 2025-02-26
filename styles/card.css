@@ -2,7 +2,7 @@ p {
     margin: 0;
 }
 
-#heart-container {
+#heart-container, #diamond-container {
     color: red;
 }
 
@@ -19,8 +19,8 @@ p {
 
     background-color: white;
 
-    width: 100%;
-    aspect-ratio: 2.25/2.75;
+    width: 90%;
+    aspect-ratio: 2.25/3.05;
 
     transition: margin-bottom 0.75s, box-shadow 0.75s, opacity 0.15s;
 

@@ -1,7 +1,6 @@
 body {
-    height: 100vh;
-
-    background-color: #d8d8d8;
+    height: 95vh;
+    background-color: #2E3234;
 
 }
 
@@ -16,6 +15,10 @@ body {
 
     gap: 5%;
     height: 100%;
+}
+
+.card-text {
+    text-align: center;
 }
 
 footer{
