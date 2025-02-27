@@ -41,14 +41,16 @@
                 we've got everything you need to improve your skills and elevate your game. 
                 Let's get started and enjoy the thrill of poker!
             </p>
-            <a href="#history-page">
-                <button class="intro-button">
-                    Get Started
-                </button>
-            </a>
+            <button class="intro-button" onclick="location.href='#history-page'">
+                Get Started
+            </button>
         </div>
+
         <div class="intro-image-column">
-                <img class="intro-image" src="/images/ace-king-card.jpg" alt="cards">
+                <!-- opens in same page -->
+                <a href="https://upswingpoker.com/wp-content/uploads/2020/09/ace-king-close-up-how-to-play-poker-games-scaled.jpg" target="_self">
+                    <img class="intro-image" src="/images/ace-king-card.jpg" alt="cards">
+                </a>
         </div>
     </div>
 
@@ -88,9 +90,11 @@
         </div>
     </div>
 
+    <!-- main tag -->
+    <main>
     <!-- section tag -->
-    <section class="section" id="gameplay-page">
-        <main>
+        <section class="section" id="gameplay-page">
+        
             <div class="gameplay-heading-row">
                 <h2 class="gameplay-heading">
                     Gameplay
@@ -118,8 +122,9 @@
                     understanding the fundamentals of poker gameplay is essential for long-term success.
                 </p>
             </div>
-        </main>
-    </section>
+        </section>
+    </main>
+
 
     <div class="section" id="strategies">
         <div class="strategy-box">
@@ -276,67 +281,17 @@
             </h2>
         </div>
 
-        <!-- <div class="term-info">
-            <div class="term-box">
-                <h3 class="term-box-heading">
-                    Bluff
-                </h3>
-                <p class="term-text">
-                    Bluffing is a strategic move where a player bets or raises with a weak hand to convince opponents they hold a stronger one, 
-                    aiming to make them fold. This technique is most effective when opponents are cautious or unsure about their hands, 
-                    and it requires careful observation of betting patterns, table dynamics, and player tendencies. 
-                    A well-executed bluff can win pots without needing the best hand, but excessive bluffing can make a player predictable and easy to counter.
-                </p>
-            </div>
-            <div class="term-box">
-                <h3 class="term-box-heading">
-                    Flop
-                </h3>
-                <p class="term-text">
-                    The flop consists of the first three community cards dealt face-up in poker games like Texas Hold'em and Omaha, 
-                    drastically shaping the direction of the hand. 
-                    It follows the first round of betting and provides players with additional information to assess their hand's strength, 
-                    potential draws, and overall strategy. A strong flop can solidify a winning hand, 
-                    while a bad flop can force players to rethink their position or attempt a bluff. 
-                    The action continues after the flop with the turn (fourth community card) and river (fifth community card), 
-                    both of which can change the outcome of the hand.
-                </p>
-            </div>
-            <div class="term-box">
-                <h3 class="term-box-heading">
-                    All-in
-                </h3>
-                <p class="term-text">
-                    Going "all-in" means a player bets all of their remaining chips, committing fully to the current hand and risking elimination if they lose. 
-                    This move can be a powerful strategy to pressure opponents, especially in tournaments where chip preservation is key, 
-                    or as a desperation move when short-stacked. If multiple players go all-in, a side pot is created for those with additional chips, 
-                    while the all-in player can only win the main pot. A well-timed all-in can double or even triple a player's stack, but it also removes their ability to make further betting decisions in the hand.
-                </p>
-            </div>
-            <div class="term-box">
-                <h3 class="term-box-heading">
-                    Bad Beat
-                </h3>
-                <p class="term-text">
-                    A bad beat occurs when a player, who was heavily favored to win, loses due to an opponent hitting an extremely unlikely but winning card. For example, 
-                    if a player with pocket aces loses to an opponent who catches a straight or flush on the river despite low odds, it's considered a bad beat. 
-                    These moments are frustrating because they often defy probability, but they are also what make poker unpredictable and exciting. 
-                    Many poker rooms have bad beat jackpots, which award a payout to players who suffer particularly harsh losses, 
-                    turning misfortune into an opportunity for consolation winnings.
-                </p>
-            </div>
-        </div> -->
-
         <div class="hands-table-container">
-            <table class="hands-table" border="1">
-                <thead class="stripped-row">
-                    <tr>
-                        <th>Rank</th>
-                        <th>Hand</th>
-                        <th>Description</th>
-                    </tr>
+            <table class="hands-table">
+                <thead>
+                    <th colspan="3">Poker Hands</th> 
                 </thead>
                 <tbody>
+                    <tr class="stripped-row">
+                        <td>Rank</td>
+                        <td>Hand</td>
+                        <td>Description</td>
+                    </tr>
                     <tr>
                         <td>1</td>
                         <td>Royal Flush</td>
@@ -396,8 +351,22 @@
     </div>
 
     <footer>
-        &copy;
+        <a href="form.html" target="_blank">Contact Us</a>
+
+        <cite>
+            &copy;https://upswingpoker.com/wp-content/uploads/2020/09/ace-king-close-up-how-to-play-poker-games-scaled.jpg
+            &copy;https://static.wixstatic.com/media/1b80e4_c8ba31010b1a411d98c9c4f909856c38~mv2.jpeg/v1/fill/w_568,h_298,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1b80e4_c8ba31010b1a411d98c9c4f909856c38~mv2.jpeg
+            &copy;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShV5-_9uRcbUscUMgrCr_sVZgXzXK2pUJm91e91V_Bx3T4pl4S
+            &copy;http://google.com/search?tbm=isch&q=Phil+Ivey
+            &copy;https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRCZSCIYxtZro5vKD3Wv_oFlC1PB3HguNUteY9vLkM0IUQiWa7D
+            &copy;https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSIwBYWFk-HnyVkV-Jf1lQarPPFJ-PleWGBaw9LuS_SuRZpcPN01KoR3iqLXuuyANEI
+            &copy;https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTU5oY04xfsm78j--1LgWqe41Q0Tod0XKlw9kWxUbxeqgusmDOJ
+            &copy;https://upload.wikimedia.org/wikipedia/commons/8/88/Justin_Bonomo_2018.jpg
+
+        </cite>
+
     </footer>
+    
 
 
 </body>

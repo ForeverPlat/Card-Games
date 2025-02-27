@@ -111,6 +111,11 @@ body {
     margin-bottom: 1rem;
 }
 
+/* first-letter pseudo element selector */
+.history-heading::first-letter {
+    font-size: 3rem;
+}
+
 .history-text {
     width: 80%;
 }
@@ -209,12 +214,20 @@ body {
     color: white;
 }
 
+
+
 .strategy-text {
     color: white;
     font-weight: bold;
 
     margin-left: 5%;
     margin-right: 5%;
+}
+
+/* float image right */
+.high-risk-image {
+    width: 100px;
+    float: right;
 }
 
 .pros-cons-text {
@@ -354,6 +367,18 @@ body {
     align-items: center;
 }
 
+.hands-table, th, td {
+    border: 2px solid black;
+}
+
+th {
+    padding: 5px;
+}
+
+td {
+    padding: 5px;
+}
+
 .hands-heading-row {
     font-size: 2em;
     align-self: flex-end;
@@ -370,4 +395,9 @@ body {
 
 .stripped-row {
     background-color: #2E3234;
+}
+
+footer a {
+    display: block;
+    text-align: center;
 }
