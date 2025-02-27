@@ -166,6 +166,12 @@ body {
 
 }
 
+.gameplay-info-text a[href] {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+}
+
 /*strategies*/
 
 #strategies {
@@ -298,6 +304,22 @@ body {
 
 }
 
+
+#term-page {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+
+    background-color: #4A5054;
+    align-items: center;
+}
+
+.term-heading-row {
+    font-size: 2em;
+    align-self: flex-end;
+    justify-self: center;
+
+}
+
 .term-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -320,4 +342,32 @@ body {
 .term-box-heading {
     font-size: 1.25rem;
     margin-bottom: 0.25rem;
+}
+
+/* Hands */
+
+#hands-page {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+
+    background-color: #4A5054;
+    align-items: center;
+}
+
+.hands-heading-row {
+    font-size: 2em;
+    align-self: flex-end;
+    justify-self: center;
+
+}
+
+.hands-table-container {
+    display: flex;
+    justify-content: center;
+
+    font-size: 2rem;
+}
+
+.stripped-row {
+    background-color: #2E3234;
 }

@@ -3,7 +3,6 @@
 <head>
 
     <link rel="stylesheet" href="/styles/webpage-style.css">
-    <link rel="stylesheet" href="/styles/card.css">
     <link rel="stylesheet" href="/styles/navbar.css">
 
 
@@ -19,13 +18,15 @@
     <header>
         <nav class="nav-bar">
             <div class="nav-left-section">
-                <a class="home-button" href="/html/index.html">Home</a>
+                <a class="home-button" href="/html/index.html">
+                    <img class="logo-image" alt="logo" src="/images/ace-card.svg">
+                </a>
             </div>
 
             <div class="nav-right-section">
                 <a href="#history-page">History</a>
                 <a href="#gameplay-page">Gameplay</a>
-                <a href="#">Hand Values</a>
+                <a href="#hands-page">Hand Values</a>
             </div>
         </nav>
     </header>
@@ -47,18 +48,19 @@
             </a>
         </div>
         <div class="intro-image-column">
-                <img class="intro-image" src="/res/ace-king-card.jpg" alt="cards">
+                <img class="intro-image" src="/images/ace-king-card.jpg" alt="cards">
         </div>
     </div>
 
     <div class="section" id="history-page">
         <div class="history-image-column">
-            <img class="history-image" src="/res/history-of-poker.jpeg" alt="History of poker">
+            <img class="history-image" src="/images/history-of-poker.jpeg" alt="History of poker">
         </div>
         <div class="history-info">
             <h3 class="history-heading">
                 History
             </h3>
+            <!-- article tag -->
             <article>
                 <p class="history-text">
                     Poker's origins can be traced back to the early 19th century in the United States, 
@@ -86,6 +88,7 @@
         </div>
     </div>
 
+    <!-- section tag -->
     <section class="section" id="gameplay-page">
         <main>
             <div class="gameplay-heading-row">
@@ -225,38 +228,39 @@
 
         <div class="player-boxes">
             
+            <!-- figure and figcaption tag -->
             <figure class="player-box">
-                <img class="player-image" src="/res/famous-players/Daniel-Negreanu.jpg" alt="Daniel-Negreanu">
+                <img class="player-image" src="/images/famous-players/Daniel-Negreanu.jpg" alt="Daniel-Negreanu">
                 <figcaption class="player-text">
                     Daniel Negreanu
                 </figcaption>
             </figure> 
             <figure class="player-box">
-                <img class="player-image" src="/res/famous-players/Phil-Ivey.jpg" alt="Phil-Ivey">
+                <img class="player-image" src="/images/famous-players/Phil-Ivey.jpg" alt="Phil-Ivey">
                 <figcaption class="player-text">
                     Phil Ivey
                 </figcaption>
             </figure>
             <figure class="player-box">
-                <img class="player-image" src="/res/famous-players/Phil-Hellmuth.jpg" alt="Phil-Hellmuth">
+                <img class="player-image" src="/images/famous-players/Phil-Hellmuth.jpg" alt="Phil-Hellmuth">
                 <figcaption class="player-text">
                     Phil Hellmuth
                 </figcaption>
             </figure>
             <figure class="player-box">
-                <img class="player-image" src="/res/famous-players/Erik-Seidel.jpg" alt="Erik-Seidel">
+                <img class="player-image" src="/images/famous-players/Erik-Seidel.jpg" alt="Erik-Seidel">
                 <figcaption class="player-text">
                     Erik Seidel
                 </figcaption>
             </figure>
             <figure class="player-box">
-                <img class="player-image" src="/res/famous-players/Doyle-Brunson.jpg" alt="Doyle-Brunson">
+                <img class="player-image" src="/images/famous-players/Doyle-Brunson.jpg" alt="Doyle-Brunson">
                 <figcaption class="player-text">
                     Doyle Brunson
                 </figcaption>
             </figure>
             <figure class="player-box">
-                <img class="player-image" src="/res/famous-players/Justin-Bonomo.jpg" alt="Justin-Bonomo">
+                <img class="player-image" src="/images/famous-players/Justin-Bonomo.jpg" alt="Justin-Bonomo">
                 <figcaption class="player-text">
                     Justin Bonomo
                 </figcaption>
@@ -264,15 +268,15 @@
         </div>
     </div>
 
-    <div class="section" id="term-page">
+    <div class="section" id="hands-page">
 
-        <div class="term-heading-row">
-            <h2 class="term-heading">
-                Popular Terms
+        <div class="hands-heading-row">
+            <h2 class="hands-heading">
+                Hands
             </h2>
         </div>
 
-        <div class="term-info">
+        <!-- <div class="term-info">
             <div class="term-box">
                 <h3 class="term-box-heading">
                     Bluff
@@ -321,7 +325,74 @@
                     turning misfortune into an opportunity for consolation winnings.
                 </p>
             </div>
+        </div> -->
+
+        <div class="hands-table-container">
+            <table class="hands-table" border="1">
+                <thead class="stripped-row">
+                    <tr>
+                        <th>Rank</th>
+                        <th>Hand</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Royal Flush</td>
+                        <td>A, K, Q, J, 10 of the same suit.</td>
+                    </tr>
+                    <tr class="stripped-row">
+                        <td>2</td>
+                        <td>Straight Flush</td>
+                        <td>Five consecutive cards of the same suit.</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Four of a Kind</td>
+                        <td>Four cards of the same rank.</td>
+                    </tr>
+                    <tr class="stripped-row">
+                        <td>4</td>
+                        <td>Full House</td>
+                        <td>Three of a kind and a pair.</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Flush</td>
+                        <td>Five cards of the same suit, not in sequence.</td>
+                    </tr>
+                    <tr class="stripped-row">
+                        <td>6</td>
+                        <td>Straight</td>
+                        <td>Five consecutive cards of any suit.</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Three of a Kind</td>
+                        <td>Three cards of the same rank.</td>
+                    </tr>
+                    <tr  class="stripped-row">
+                        <td>8</td>
+                        <td>Two Pair</td>
+                        <td>Two pairs of cards of the same rank.</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>One Pair</td>
+                        <td>Two cards of the same rank.</td>
+                    </tr>
+                    <tr class="stripped-row">
+                        <td>10</td>
+                        <td>High Card</td>
+                        <td>The highest card in your hand when no other hand is made.</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
+
+        
+
     </div>
 
     <footer>

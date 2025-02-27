@@ -3,6 +3,8 @@ body {
     margin: 20px;
     background-color: #2E3234;
     text-align: center;
+
+    margin-top: 10%;
 }
 
 h1 {
@@ -105,4 +107,9 @@ button {
 
 button:hover {
     background-color: lightgray;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    background-color: rgb(235, 235, 235);
 }
