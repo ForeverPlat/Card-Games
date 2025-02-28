@@ -1,6 +1,6 @@
 # Cards Game Website
 
-### Work Split
+##### Work Split
 
 **Luqman Ajani:**
 - index.html
