@@ -16,4 +16,4 @@
 - index-sevens.html
 - form.css
 
-![image alt] (contact-form.jpg)
+![image alt] (https://github.com/ForeverPlat/Card-Games/blob/main/contact-form.jpg)
