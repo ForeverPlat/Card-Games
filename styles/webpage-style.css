@@ -236,12 +236,6 @@ main {
     margin-right: 5%;
 }
 
-/* float image right */
-.high-risk-image {
-    width: 100px;
-    float: right;
-}
-
 .pros-cons-text {
     color: white;
     font-weight: bold;

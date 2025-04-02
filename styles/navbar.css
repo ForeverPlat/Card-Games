@@ -1,0 +1,37 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.25rem;
+
+    background-color: #555b5e;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 6rem;
+
+}
+
+.nav-bar a:link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-bar a:visited {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-bar- a:hover {
+    text-decoration: underline;
+}
