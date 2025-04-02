@@ -1,0 +1,100 @@
+/* Responsive Layouts - COMP 2511 Assignment 2 */
+
+/* Small devices (≤ 589px) */
+@media (max-width: 589px) {
+
+    body {
+        width: 10000px;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-left-section, .nav-right-section {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .nav-right-section a {
+        margin: 0.5rem 0;
+    }
+
+    #intro-page,
+    #history-page {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .intro-image-column,
+    .history-image-column {
+        margin: 0 auto;
+    }
+
+    #strategies {
+        grid-template-columns: 1fr;
+    }
+
+    .player-boxes {
+        grid-template-columns: 1fr;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .term-info {
+        grid-template-columns: 1fr;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Medium devices (590px – 789px) */
+@media (min-width: 590px) and (max-width: 789px) {
+    .player-boxes {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #strategies {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .term-info {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Large devices (≥ 790px) */
+@media (min-width: 790px) {
+    body {
+        max-width: 790px;
+        margin: 0 auto;
+        background-color: #2E3234;
+    }
+
+    .player-boxes {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #strategies {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .term-info {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
