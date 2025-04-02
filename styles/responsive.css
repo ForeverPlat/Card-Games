@@ -1,25 +1,37 @@
 /* Responsive Layouts - COMP 2511 Assignment 2 */
 
+/* ------------------- RESPONSIVE.CSS ------------------- */
+/* COMP 2511 - Assignment 2: Responsive Layout */
+
+/* General fix for horizontal overflow */
+html, body {
+    min-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
 /* Small devices (≤ 589px) */
 @media (max-width: 589px) {
 
-    body {
-        width: 10000px;
+    main {
+        display: flex;
+        flex-direction: column;
     }
-
-    .nav-bar {
+    
+    .header-bar {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .nav-left-section, .nav-right-section {
+    .header-left-section, .header-right-section {
         flex-direction: column;
         align-items: center;
         margin: 0;
     }
 
-    .nav-right-section a {
+    .header-right-section a {
         margin: 0.5rem 0;
     }
 
@@ -55,6 +67,17 @@
 
 /* Medium devices (590px – 789px) */
 @media (min-width: 590px) and (max-width: 789px) {
+
+    main {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .section {
+        flex: 1;
+        margin-bottom: 3%;
+    }
+
     .player-boxes {
         grid-template-columns: 1fr 1fr;
         margin-left: 10%;

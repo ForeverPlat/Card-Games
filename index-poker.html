@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 
-    <link rel="stylesheet" href="/styles/webpage-style.css">
-    <link rel="stylesheet" href="/styles/navbar.css">
-    <link rel="stylesheet" href="/styles/responsive.css">
+    <link rel="stylesheet" href="styles/webpage-style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 
 
     <meta name = "keywords" content = "Poker">
@@ -16,21 +16,26 @@
 </head>
 <body>
 
-    <header>
-        <nav class="nav-bar">
-            <div class="nav-left-section">
-                <a class="home-button" href="index.html">
-                    <img class="logo-image" alt="logo" src="images/ace-card.svg">
-                </a>
-            </div>
 
-            <div class="nav-right-section">
-                <a href="index-poker.html">Poker</a>
-                <a href="index-bridges.html">Bridge</a>
-                <a href="index-sevens.html">Sevens</a>
-            </div>
-        </nav>
+    <header class="header-bar">
+        <div class="header-left-section">
+            <a class="home-button" href="index.html">
+                <img class="logo-image" alt="logo" src="images/ace-card.svg">
+            </a>
+        </div>
+
+        <div class="header-right-section">
+            <a href="index-poker.html">Poker</a>
+            <a href="index-bridges.html">Bridge</a>
+            <a href="index-sevens.html">Sevens</a>
+        </div>
     </header>
+
+    <nav class="nav-bar">
+        <a href="#intro-page">Introduction</a>
+        <a href="#history-page">History</a>
+        <a href="">Sevens</a>
+    </nav>
     
     <div class="section" id="intro-page">
         <div class="intro-info">
@@ -92,7 +97,8 @@
     </div>
 
     <!-- main tag -->
-    <main>
+    <main >
+
     <!-- section tag -->
         <section class="section" id="gameplay-page">
         
@@ -124,230 +130,230 @@
                 </p>
             </div>
         </section>
-    </main>
+    
 
 
-    <div class="section" id="strategies">
-        <div class="strategy-box">
+        <div class="section" id="strategies">
+            <div class="strategy-box">
 
-            <div class="strategy-definitions">
-                <h3 class="strategy-heading">
-                    TAG
-                </h3>
-                <ul>
-                    <li class="strategy-list">
-                        <p class="strategy-text">
-                            <span class="strategy-meaning">Tight:</span> Only play strong starting hands (like high pairs, strong aces, and suited connectors).
-                        </p>
-                    </li>
-                    <li class="strategy-list">
-                        <p class="strategy-text">
-                            <span class="strategy-meaning">Aggressive:</span> When you do play, bet and raise rather than just calling. 
-                            This puts pressure on opponents and maximizes value from strong hands.
-                        </p>
-                    </li>
-                </ul>
+                <div class="strategy-definitions">
+                    <h3 class="strategy-heading">
+                        TAG
+                    </h3>
+                    <ul>
+                        <li class="strategy-list">
+                            <p class="strategy-text">
+                                <span class="strategy-meaning">Tight:</span> Only play strong starting hands (like high pairs, strong aces, and suited connectors).
+                            </p>
+                        </li>
+                        <li class="strategy-list">
+                            <p class="strategy-text">
+                                <span class="strategy-meaning">Aggressive:</span> When you do play, bet and raise rather than just calling. 
+                                This puts pressure on opponents and maximizes value from strong hands.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="strategy-pros-cons">
+                    <p class="pros-cons-text">
+                        <span class="strategy-meaning">Benefit:</span> Maximizes winnings with strong hands while minimizing losses by avoiding weak hands, leading to consistent, profitable play.
+                    </p> 
+                    <p class="pros-cons-text">
+                        <span class="strategy-meaning">Downsides:</span> Can become predictable if not balanced with occasional bluffs, making it easier for skilled opponents to exploit.
+                    </p> 
+                </div>
+
+
+
+            </div>
+            <div class="strategy-box">
+
+                <div class="strategy-definitions">
+                    <h3 class="strategy-heading">
+                        TP
+                    </h3>
+                    <ul>
+                        <li class="strategy-list">
+                            <p class="strategy-text">
+                                <span class="strategy-meaning">Tight:</span> Only play strong starting hands (like high pairs, strong aces, and suited connectors).
+                            </p>
+                        </li>
+                        <li class="strategy-list">
+                            <p class="strategy-text">
+                                <span class="strategy-meaning">Passive:</span> Avoids betting and raising, instead opting to call and check, 
+                                which leads to missed opportunities for maximizing value and allows aggressive opponents to dictate the pace of the game.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="strategy-pros-cons">
+                    <p class="pros-cons-text">
+                        <span class="strategy-meaning">Benefit:</span> Avoids unnecessary risks and large losses by only playing strong hands and rarely making aggressive moves.
+                    </p> 
+                    <p class="pros-cons-text">
+                        <span class="strategy-meaning">Downsides:</span> Misses value by not betting or raising enough, allowing opponents to dictate the pace and exploit passivity.
+                    </p> 
+                </div>
+                
+            </div>
+            <div class="strategy-box">
+
+                <div class="strategy-definitions">
+                    <h3 class="strategy-heading">
+                        LAG
+                    </h3>
+                    <ul>
+                        <li class="strategy-list">
+                            <p class="strategy-text">
+                                <span class="strategy-meaning">Loose:</span> Plays a wide range of hands, including weaker and speculative hands.
+                            </p>
+                        </li>
+                        <li class="strategy-list">
+                            <p class="strategy-text">
+                                <span class="strategy-meaning">Aggressive:</span> Bets and raises frequently instead of checking or calling, applying constant pressure on opponents, 
+                                stealing pots, and forcing them to make tough decisions—even when holding weaker hands.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="strategy-pros-cons">
+                    <p class="pros-cons-text">
+                        <span class="strategy-meaning">Benefit:</span> Keeps opponents guessing and forces them to make mistakes by playing a wide range of hands aggressively, often winning pots without showdown.
+                    </p> 
+                    <p class="pros-cons-text">
+                        <span class="strategy-meaning">Downsides:</span> High risk of losing chips if you don't hit your draws or if opponents catch on and start calling or raising with stronger hands.
+                    </p> 
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section" id="players-page">
+            <div class="player-heading-row">
+                <h2 class="player-heading">
+                    Famous Players
+                </h2>
             </div>
 
-            <div class="strategy-pros-cons">
-                <p class="pros-cons-text">
-                    <span class="strategy-meaning">Benefit:</span> Maximizes winnings with strong hands while minimizing losses by avoiding weak hands, leading to consistent, profitable play.
-                </p> 
-                <p class="pros-cons-text">
-                    <span class="strategy-meaning">Downsides:</span> Can become predictable if not balanced with occasional bluffs, making it easier for skilled opponents to exploit.
-                </p> 
+            <div class="player-boxes">
+                
+                <!-- figure and figcaption tag -->
+                <figure class="player-box">
+                    <img class="player-image" src="images/Daniel-Negreanu.jpg" alt="Daniel-Negreanu">
+                    <figcaption class="player-text">
+                        Daniel Negreanu
+                    </figcaption>
+                </figure> 
+                <figure class="player-box">
+                    <img class="player-image" src="images/Phil-Ivey.jpg" alt="Phil-Ivey">
+                    <figcaption class="player-text">
+                        Phil Ivey
+                    </figcaption>
+                </figure>
+                <figure class="player-box">
+                    <img class="player-image" src="images/Phil-Hellmuth.jpg" alt="Phil-Hellmuth">
+                    <figcaption class="player-text">
+                        Phil Hellmuth
+                    </figcaption>
+                </figure>
+                <figure class="player-box">
+                    <img class="player-image" src="images/Erik-Seidel.jpg" alt="Erik-Seidel">
+                    <figcaption class="player-text">
+                        Erik Seidel
+                    </figcaption>
+                </figure>
+                <figure class="player-box">
+                    <img class="player-image" src="images/Doyle-Brunson.jpg" alt="Doyle-Brunson">
+                    <figcaption class="player-text">
+                        Doyle Brunson
+                    </figcaption>
+                </figure>
+                <figure class="player-box">
+                    <img class="player-image" src="images/Justin-Bonomo.jpg" alt="Justin-Bonomo">
+                    <figcaption class="player-text">
+                        Justin Bonomo
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="section" id="hands-page">
+
+            <div class="hands-heading-row">
+                <h2 class="hands-heading">
+                    Hands
+                </h2>
             </div>
 
-
-
-        </div>
-        <div class="strategy-box">
-
-            <div class="strategy-definitions">
-                <h3 class="strategy-heading">
-                    TP
-                </h3>
-                <ul>
-                    <li class="strategy-list">
-                        <p class="strategy-text">
-                            <span class="strategy-meaning">Tight:</span> Only play strong starting hands (like high pairs, strong aces, and suited connectors).
-                        </p>
-                    </li>
-                    <li class="strategy-list">
-                        <p class="strategy-text">
-                            <span class="strategy-meaning">Passive:</span> Avoids betting and raising, instead opting to call and check, 
-                            which leads to missed opportunities for maximizing value and allows aggressive opponents to dictate the pace of the game.
-                        </p>
-                    </li>
-                </ul>
+            <div class="hands-table-container">
+                <table class="hands-table">
+                    <thead>
+                        <th colspan="3">Poker Hands</th> 
+                    </thead>
+                    <tbody>
+                        <tr class="stripped-row">
+                            <td>Rank</td>
+                            <td>Hand</td>
+                            <td>Description</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Royal Flush</td>
+                            <td>A, K, Q, J, 10 of the same suit.</td>
+                        </tr>
+                        <tr class="stripped-row">
+                            <td>2</td>
+                            <td>Straight Flush</td>
+                            <td>Five consecutive cards of the same suit.</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Four of a Kind</td>
+                            <td>Four cards of the same rank.</td>
+                        </tr>
+                        <tr class="stripped-row">
+                            <td>4</td>
+                            <td>Full House</td>
+                            <td>Three of a kind and a pair.</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Flush</td>
+                            <td>Five cards of the same suit, not in sequence.</td>
+                        </tr>
+                        <tr class="stripped-row">
+                            <td>6</td>
+                            <td>Straight</td>
+                            <td>Five consecutive cards of any suit.</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Three of a Kind</td>
+                            <td>Three cards of the same rank.</td>
+                        </tr>
+                        <tr  class="stripped-row">
+                            <td>8</td>
+                            <td>Two Pair</td>
+                            <td>Two pairs of cards of the same rank.</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>One Pair</td>
+                            <td>Two cards of the same rank.</td>
+                        </tr>
+                        <tr class="stripped-row">
+                            <td>10</td>
+                            <td>High Card</td>
+                            <td>The highest card in your hand when no other hand is made.</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
-            <div class="strategy-pros-cons">
-                <p class="pros-cons-text">
-                    <span class="strategy-meaning">Benefit:</span> Avoids unnecessary risks and large losses by only playing strong hands and rarely making aggressive moves.
-                </p> 
-                <p class="pros-cons-text">
-                    <span class="strategy-meaning">Downsides:</span> Misses value by not betting or raising enough, allowing opponents to dictate the pace and exploit passivity.
-                </p> 
-            </div>
-            
-        </div>
-        <div class="strategy-box">
-
-            <div class="strategy-definitions">
-                <h3 class="strategy-heading">
-                    LAG
-                </h3>
-                <ul>
-                    <li class="strategy-list">
-                        <p class="strategy-text">
-                            <span class="strategy-meaning">Loose:</span> Plays a wide range of hands, including weaker and speculative hands.
-                        </p>
-                    </li>
-                    <li class="strategy-list">
-                        <p class="strategy-text">
-                            <span class="strategy-meaning">Aggressive:</span> Bets and raises frequently instead of checking or calling, applying constant pressure on opponents, 
-                            stealing pots, and forcing them to make tough decisions—even when holding weaker hands.
-                        </p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="strategy-pros-cons">
-                <p class="pros-cons-text">
-                    <span class="strategy-meaning">Benefit:</span> Keeps opponents guessing and forces them to make mistakes by playing a wide range of hands aggressively, often winning pots without showdown.
-                </p> 
-                <p class="pros-cons-text">
-                    <span class="strategy-meaning">Downsides:</span> High risk of losing chips if you don't hit your draws or if opponents catch on and start calling or raising with stronger hands.
-                </p> 
-            </div>
-
-        </div>
-    </div>
-
-    <div class="section" id="players-page">
-        <div class="player-heading-row">
-            <h2 class="player-heading">
-                Famous Players
-            </h2>
-        </div>
-
-        <div class="player-boxes">
-            
-            <!-- figure and figcaption tag -->
-            <figure class="player-box">
-                <img class="player-image" src="images/Daniel-Negreanu.jpg" alt="Daniel-Negreanu">
-                <figcaption class="player-text">
-                    Daniel Negreanu
-                </figcaption>
-            </figure> 
-            <figure class="player-box">
-                <img class="player-image" src="images/Phil-Ivey.jpg" alt="Phil-Ivey">
-                <figcaption class="player-text">
-                    Phil Ivey
-                </figcaption>
-            </figure>
-            <figure class="player-box">
-                <img class="player-image" src="images/Phil-Hellmuth.jpg" alt="Phil-Hellmuth">
-                <figcaption class="player-text">
-                    Phil Hellmuth
-                </figcaption>
-            </figure>
-            <figure class="player-box">
-                <img class="player-image" src="images/Erik-Seidel.jpg" alt="Erik-Seidel">
-                <figcaption class="player-text">
-                    Erik Seidel
-                </figcaption>
-            </figure>
-            <figure class="player-box">
-                <img class="player-image" src="images/Doyle-Brunson.jpg" alt="Doyle-Brunson">
-                <figcaption class="player-text">
-                    Doyle Brunson
-                </figcaption>
-            </figure>
-            <figure class="player-box">
-                <img class="player-image" src="images/Justin-Bonomo.jpg" alt="Justin-Bonomo">
-                <figcaption class="player-text">
-                    Justin Bonomo
-                </figcaption>
-            </figure>
-        </div>
-    </div>
-
-    <div class="section" id="hands-page">
-
-        <div class="hands-heading-row">
-            <h2 class="hands-heading">
-                Hands
-            </h2>
-        </div>
-
-        <div class="hands-table-container">
-            <table class="hands-table">
-                <thead>
-                    <th colspan="3">Poker Hands</th> 
-                </thead>
-                <tbody>
-                    <tr class="stripped-row">
-                        <td>Rank</td>
-                        <td>Hand</td>
-                        <td>Description</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Royal Flush</td>
-                        <td>A, K, Q, J, 10 of the same suit.</td>
-                    </tr>
-                    <tr class="stripped-row">
-                        <td>2</td>
-                        <td>Straight Flush</td>
-                        <td>Five consecutive cards of the same suit.</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Four of a Kind</td>
-                        <td>Four cards of the same rank.</td>
-                    </tr>
-                    <tr class="stripped-row">
-                        <td>4</td>
-                        <td>Full House</td>
-                        <td>Three of a kind and a pair.</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Flush</td>
-                        <td>Five cards of the same suit, not in sequence.</td>
-                    </tr>
-                    <tr class="stripped-row">
-                        <td>6</td>
-                        <td>Straight</td>
-                        <td>Five consecutive cards of any suit.</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>Three of a Kind</td>
-                        <td>Three cards of the same rank.</td>
-                    </tr>
-                    <tr  class="stripped-row">
-                        <td>8</td>
-                        <td>Two Pair</td>
-                        <td>Two pairs of cards of the same rank.</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td>One Pair</td>
-                        <td>Two cards of the same rank.</td>
-                    </tr>
-                    <tr class="stripped-row">
-                        <td>10</td>
-                        <td>High Card</td>
-                        <td>The highest card in your hand when no other hand is made.</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        
+        </main>
 
     </div>
 
