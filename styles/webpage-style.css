@@ -126,6 +126,7 @@ body {
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2em;
     width: 66%;
     min-height: 66vh;
     margin: 0 auto;
