@@ -137,10 +137,7 @@ main {
 
 
 #gameplay-page {
-    display: grid;
-    grid-template-rows: 1fr;
 
-    align-items: center;
 }
 
 .gameplay-heading-row {
@@ -193,20 +190,21 @@ main {
 /*strategies*/
 
 #strategies {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2%;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
 
     margin-left: 2%;
     margin-right: 2%;
 }
 
 .strategy-box {
-    display: grid;
     background-color: #7d7979;
+    padding-bottom: 5%;
 
-    margin-bottom: 50%;
-    
     border: 3px;
     border-color: black;
     border-style: solid;

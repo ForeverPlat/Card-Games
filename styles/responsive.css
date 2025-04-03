@@ -68,10 +68,10 @@ html, body {
 /* Medium devices (590px – 789px) */
 @media (min-width: 590px) and (max-width: 789px) {
 
-    main {
+    /* main {
         display: grid;
         grid-template-rows: 1fr 1fr;
-    }
+    } */
 
     .section {
         flex: 1;
@@ -84,17 +84,6 @@ html, body {
         margin-right: 10%;
     }
 
-    #strategies {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .term-info {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .card-grid {
-        grid-template-columns: 1fr 1fr;
-    }
 }
 
 /* Large devices (≥ 790px) */
@@ -110,7 +99,7 @@ html, body {
     }
 
     #strategies {
-        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr 1fr; */
     }
 
     .term-info {
