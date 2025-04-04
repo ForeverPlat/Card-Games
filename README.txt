@@ -10,6 +10,7 @@
 - webpage-style.css
 - style.css
 - responisive.css
+- footer.css
 
 **Laeeq Lahda:**
 - form.html
