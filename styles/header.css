@@ -33,8 +33,14 @@
     font-weight: 500;
 }
 
-.header-bar- a:hover {
-    text-decoration: underline;
+.header-bar a:hover {
+    text-decoration: none;
+    color: rgb(222, 222, 222);
+}
+
+.header-bar a:active {
+    text-decoration: none;
+    opacity: 0.7;
 }
 
 .header-left-section {
