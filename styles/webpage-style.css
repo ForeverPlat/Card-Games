@@ -251,12 +251,6 @@ main {
 
 /*Famous Players*/
 
-#players-page {
-
-    background-color: #232628;
-}
-
-
 .player-heading {
     margin-bottom: 10%;
 }
@@ -297,9 +291,12 @@ main {
 
 /*popular terms*/
 
+fieldset {
+    
+    background-color: #4A5054;
+}
 
 #term-page {
-    background-color: #4A5054;
 }
 
 .term-heading-row {

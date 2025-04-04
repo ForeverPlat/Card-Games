@@ -15,17 +15,16 @@ main {
 
 .header-bar {
     height: auto;
-    min-height: 70px; /* Set a minimum height */
+    min-height: 70px; 
 }
 
 .nav-bar {
     height: auto;
-    min-height: 50px; /* Set a minimum height */
+    min-height: 50px; 
 }
 
-/* Calculate total header height and apply padding to body */
 body {
-    padding-top: calc(80px + 50px); /* header + nav height */
+    padding-top: calc(80px + 50px); 
 }
 
 
@@ -39,7 +38,7 @@ body {
     main {
         display: flex;
         flex-direction: column;
-        min-height: auto; /* Remove any fixed heights */
+        min-height: auto; 
     }
     
     .header-bar {
@@ -72,7 +71,7 @@ body {
     .intro-image-column,
     .history-image-column {
         margin: 0 auto;
-        padding: 1rem; /* Add padding around images */
+        padding: 1rem;
     }
 
     #strategies {
@@ -81,7 +80,7 @@ body {
 
     .player-boxes {
         grid-template-columns: 1fr;
-        gap: 1rem; /* Ensure consistent spacing */
+        gap: 1rem;
     }
 
     .term-info {
@@ -92,7 +91,6 @@ body {
         grid-template-columns: 1fr;
     }
     
-    /* Fix footer spacing */
     footer {
         margin-top: 2rem;
         padding: 1rem;
