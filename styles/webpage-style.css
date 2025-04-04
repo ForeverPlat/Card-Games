@@ -130,6 +130,8 @@ main {
     width: 66%;
     min-height: 66vh;
     margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 
@@ -252,17 +254,10 @@ main {
 /*Famous Players*/
 
 #players-page {
-    display: grid;
-    grid-template-rows: 1fr 4fr;
 
     background-color: #232628;
-    align-items: center;
 }
 
-.player-heading-row {
-    font-size: 2em;
-    justify-self: center;
-}
 
 .player-heading {
     margin-bottom: 10%;
@@ -275,9 +270,7 @@ main {
     grid-column-gap: 2%;
     grid-row-gap: 2%;
 
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 10%;
+
 }
 
 .player-box {
@@ -365,11 +358,9 @@ main {
 /* Hands */
 
 #hands-page {
-    display: grid;
-    grid-template-rows: 1fr 5fr;
+
 
     background-color: #4A5054;
-    align-items: center;
 }
 
 .hands-table, th, td {

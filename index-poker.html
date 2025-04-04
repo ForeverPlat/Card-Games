@@ -101,35 +101,34 @@
     </div>
 
     <!-- main tag -->
-    <main class="main-content">
+    <main id="main-content">
 
-    <!-- section tag -->
-    <section id="gameplay-page">
-        <fieldset>
-            <legend><strong>Gameplay</strong></legend>
-            <div class="gameplay-info">
-                <p class="gameplay-info-text">
-                    Poker is a strategic card game that combines skill, 
-                    luck, and psychology. The most popular variant, 
-                    Texas Hold'em, starts with each player receiving two private cards 
-                    ("hole cards") and using five community cards to make the best five-card hand. 
-                    Players take turns betting, calling, raising, 
-                    or folding based on the strength of their hand and their ability to bluff opponents. 
-                    The game consists of four betting rounds—pre-flop, flop, turn, 
-                    and river—where players analyze odds, read opponents, and manage their chips wisely. 
-                    The goal is to win chips by either having the best hand at showdown or forcing others to fold.
-                </p>
-            </div>
-        </fieldset>
-    </section>
-    
+        <!-- section tag -->
+        <section id="gameplay-page">
+            <fieldset>
+                <legend><strong>Gameplay</strong></legend>
+                <div class="gameplay-info">
+                    <p class="gameplay-info-text">
+                        Poker is a strategic card game that combines skill, 
+                        luck, and psychology. The most popular variant, 
+                        Texas Hold'em, starts with each player receiving two private cards 
+                        ("hole cards") and using five community cards to make the best five-card hand. 
+                        Players take turns betting, calling, raising, 
+                        or folding based on the strength of their hand and their ability to bluff opponents. 
+                        The game consists of four betting rounds—pre-flop, flop, turn, 
+                        and river—where players analyze odds, read opponents, and manage their chips wisely. 
+                        The goal is to win chips by either having the best hand at showdown or forcing others to fold.
+                    </p>
+                </div>
+            </fieldset>
+        </section>
+        
 
 
         <section>
             <fieldset>
                 <legend><strong>Strategies</strong></legend>
                 <div id="strategies">
-
                     <div class="strategy-box">
 
                         <div class="strategy-definitions">
@@ -197,131 +196,128 @@
             </fieldset>
         </section>
 
-        <div id="players-page">
-            <div class="player-heading-row">
-                <h2 class="player-heading">
-                    Famous Players
-                </h2>
-            </div>
+        <section>
+            <fieldset>
+                <legend><strong>Famous Players</strong></legend>
+                <div id="players-page">
+                    <div class="player-boxes">
+                        
+                        <!-- figure and figcaption tag -->
+                        <figure class="player-box">
+                            <img class="player-image" src="images/Daniel-Negreanu.jpg" alt="Daniel-Negreanu">
+                            <figcaption class="player-text">
+                                Daniel Negreanu
+                            </figcaption>
+                        </figure> 
+                        <figure class="player-box">
+                            <img class="player-image" src="images/Phil-Ivey.jpg" alt="Phil-Ivey">
+                            <figcaption class="player-text">
+                                Phil Ivey
+                            </figcaption>
+                        </figure>
+                        <figure class="player-box">
+                            <img class="player-image" src="images/Phil-Hellmuth.jpg" alt="Phil-Hellmuth">
+                            <figcaption class="player-text">
+                                Phil Hellmuth
+                            </figcaption>
+                        </figure>
+                        <figure class="player-box">
+                            <img class="player-image" src="images/Erik-Seidel.jpg" alt="Erik-Seidel">
+                            <figcaption class="player-text">
+                                Erik Seidel
+                            </figcaption>
+                        </figure>
+                        <figure class="player-box">
+                            <img class="player-image" src="images/Doyle-Brunson.jpg" alt="Doyle-Brunson">
+                            <figcaption class="player-text">
+                                Doyle Brunson
+                            </figcaption>
+                        </figure>
+                        <figure class="player-box">
+                            <img class="player-image" src="images/Justin-Bonomo.jpg" alt="Justin-Bonomo">
+                            <figcaption class="player-text">
+                                Justin Bonomo
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </fieldset>
+        </section>
 
-            <div class="player-boxes">
-                
-                <!-- figure and figcaption tag -->
-                <figure class="player-box">
-                    <img class="player-image" src="images/Daniel-Negreanu.jpg" alt="Daniel-Negreanu">
-                    <figcaption class="player-text">
-                        Daniel Negreanu
-                    </figcaption>
-                </figure> 
-                <figure class="player-box">
-                    <img class="player-image" src="images/Phil-Ivey.jpg" alt="Phil-Ivey">
-                    <figcaption class="player-text">
-                        Phil Ivey
-                    </figcaption>
-                </figure>
-                <figure class="player-box">
-                    <img class="player-image" src="images/Phil-Hellmuth.jpg" alt="Phil-Hellmuth">
-                    <figcaption class="player-text">
-                        Phil Hellmuth
-                    </figcaption>
-                </figure>
-                <figure class="player-box">
-                    <img class="player-image" src="images/Erik-Seidel.jpg" alt="Erik-Seidel">
-                    <figcaption class="player-text">
-                        Erik Seidel
-                    </figcaption>
-                </figure>
-                <figure class="player-box">
-                    <img class="player-image" src="images/Doyle-Brunson.jpg" alt="Doyle-Brunson">
-                    <figcaption class="player-text">
-                        Doyle Brunson
-                    </figcaption>
-                </figure>
-                <figure class="player-box">
-                    <img class="player-image" src="images/Justin-Bonomo.jpg" alt="Justin-Bonomo">
-                    <figcaption class="player-text">
-                        Justin Bonomo
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
+        <section>
+            <fieldset>
+                <legend><strong>Hands</strong></legend>
+                <div id="hands-page">
+                    <div class="hands-table-container">
+                        <table class="hands-table">
+                            <thead>
+                                <th colspan="3">Poker Hands</th> 
+                            </thead>
+                            <tbody>
+                                <tr class="stripped-row">
+                                    <td>Rank</td>
+                                    <td>Hand</td>
+                                    <td>Description</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Royal Flush</td>
+                                    <td>A, K, Q, J, 10 of the same suit.</td>
+                                </tr>
+                                <tr class="stripped-row">
+                                    <td>2</td>
+                                    <td>Straight Flush</td>
+                                    <td>Five consecutive cards of the same suit.</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Four of a Kind</td>
+                                    <td>Four cards of the same rank.</td>
+                                </tr>
+                                <tr class="stripped-row">
+                                    <td>4</td>
+                                    <td>Full House</td>
+                                    <td>Three of a kind and a pair.</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Flush</td>
+                                    <td>Five cards of the same suit, not in sequence.</td>
+                                </tr>
+                                <tr class="stripped-row">
+                                    <td>6</td>
+                                    <td>Straight</td>
+                                    <td>Five consecutive cards of any suit.</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Three of a Kind</td>
+                                    <td>Three cards of the same rank.</td>
+                                </tr>
+                                <tr  class="stripped-row">
+                                    <td>8</td>
+                                    <td>Two Pair</td>
+                                    <td>Two pairs of cards of the same rank.</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>One Pair</td>
+                                    <td>Two cards of the same rank.</td>
+                                </tr>
+                                <tr class="stripped-row">
+                                    <td>10</td>
+                                    <td>High Card</td>
+                                    <td>The highest card in your hand when no other hand is made.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
 
-        <div id="hands-page">
+                </div>
+            </fieldset>
+        </section>
 
-            <div class="hands-heading-row">
-                <h2 class="hands-heading">
-                    Hands
-                </h2>
-            </div>
-
-            <div class="hands-table-container">
-                <table class="hands-table">
-                    <thead>
-                        <th colspan="3">Poker Hands</th> 
-                    </thead>
-                    <tbody>
-                        <tr class="stripped-row">
-                            <td>Rank</td>
-                            <td>Hand</td>
-                            <td>Description</td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Royal Flush</td>
-                            <td>A, K, Q, J, 10 of the same suit.</td>
-                        </tr>
-                        <tr class="stripped-row">
-                            <td>2</td>
-                            <td>Straight Flush</td>
-                            <td>Five consecutive cards of the same suit.</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Four of a Kind</td>
-                            <td>Four cards of the same rank.</td>
-                        </tr>
-                        <tr class="stripped-row">
-                            <td>4</td>
-                            <td>Full House</td>
-                            <td>Three of a kind and a pair.</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Flush</td>
-                            <td>Five cards of the same suit, not in sequence.</td>
-                        </tr>
-                        <tr class="stripped-row">
-                            <td>6</td>
-                            <td>Straight</td>
-                            <td>Five consecutive cards of any suit.</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>Three of a Kind</td>
-                            <td>Three cards of the same rank.</td>
-                        </tr>
-                        <tr  class="stripped-row">
-                            <td>8</td>
-                            <td>Two Pair</td>
-                            <td>Two pairs of cards of the same rank.</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>One Pair</td>
-                            <td>Two cards of the same rank.</td>
-                        </tr>
-                        <tr class="stripped-row">
-                            <td>10</td>
-                            <td>High Card</td>
-                            <td>The highest card in your hand when no other hand is made.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-        </main>
-
-    </div>
+    </main>
 
     <footer>
         <a href="form.html" target="_blank">Contact Us</a>
