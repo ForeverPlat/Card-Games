@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <link rel="stylesheet" href="styles/webpage-style.css">
-    <link rel="stylesheet" href="styles/card.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 
-
-    <meta name = "keywords" content = "Poker">
-    <meta name = "author" content = "Luqman Ajani, Laeeq Lahda">
-    <meta name = "description" content = "The website page about poker.">
+    <meta name="keywords" content="Bridge">
+    <meta name="author" content="Luqman Ajani, Laeeq Lahda">
+    <meta name="description" content="The website page about bridge.">
     <meta charset="UTF-8">
 
-    <title>Mastering Bridges: Strategies, Tips, and Insights</title>
+    <title>Mastering Bridge: Strategies, Tips, and Insights</title>
 </head>
 <body>
 
     <div class="navigation">
-
         <header class="header-bar">
             <div class="header-left-section">
                 <a class="home-button" href="index.html">
@@ -38,26 +35,24 @@
             <a href="#history-page">History</a>
             <a href="#main-content">Main Content</a>
         </nav>
-
     </div>
     
-
     <div class="section" id="intro-page">
         <div class="intro-info">
             <h1 class="intro-heading">
-                Bridges
+                Bridge
             </h1>
             <p class="intro-text">
-                Welcome to the exciting world of Bridges! Whether you're a beginner or an experienced player, 
+                Welcome to the exciting world of Bridge! Whether you're a beginner or an experienced player, 
                 we've got everything you need to improve your skills and elevate your game. 
-                Let's get started and enjoy the thrill of Bridges!
+                Let's get started and enjoy the thrill of Bridge!
             </p>
             <button class="intro-button" onclick="location.href='#history-page'">
                 Get Started
             </button>
         </div>
         <div class="intro-image-column">
-                <img class="intro-image" src="images/bridgesintropic.jpg" alt="Bridge cards laid on table for intro section">
+            <img class="intro-image" src="images/bridgesintropic.jpg" alt="Bridge cards laid on table for intro section">
         </div>
     </div>
 
@@ -75,19 +70,14 @@
                     One such development was the rise of Biritch, also referred to as Russian Whist, which included early bidding notions
                     that would become a mainstay in later iterations of the game. Early forms of whist served as a foundation for deeper card games.
 
-                    
-                    <br>
-                    <br>
+                    <br><br>
 
                     Early in the 20th century, Auction Bridge developed as a result of players' experiments with different bidding techniques. 
                     It added a strategic auction phase to decide the contract for every hand. The game was gradually changed by scoring innovations
                     and rule changes throughout this time, which opened the door for additional improvement. In the 1920s, important players
                     like Harold Vanderbilt helped create Contract Bridge, which established the scoring system and norms that are now the norm in contemporary play.
                     
-
-                    <br>
-                    <br>
-
+                    <br><br>
                     
                     Today, Contract Bridge is praised all over the world as a game that blends strategy, talent, and good partner communication. 
                     It is an active component of the international card-playing community and is played competitively in clubs, tournaments, 
@@ -97,230 +87,173 @@
         </div>
     </div>
 
-    <div class="section" id="gameplay-page">
-        <div class="gameplay-heading-row">
-            <h2 class="gameplay-heading">
-                Gameplay
-            </h2>
-        </div>
-        <div class="gameplay-info">
-            <p class="gameplay-info-text">
-                Bridge is a strategic card game played by four players in two partnerships. The game has two main phases: 
-                the bidding phase and the play phase. In the bidding phase, players determine the contract, which specifies 
-                the trump suit (or no trump) and the number of tricks the declaring side must take. Bidding continues until 
-                three players pass, and the highest bidder becomes the declarer, with their partner as the dummy.
-            </p>
-            <p class="gameplay-info-text">
-                In the play phase, the declarer tries to fulfill the contract, while the defenders work to stop them. 
-                The dummy's hand is placed face-up after the opening lead, and players must follow suit if possible. 
-                The highest card of the suit led wins the trick unless a trump card is played, in which case the highest trump wins.
-            </p>
-            <p class="gameplay-info-text">
-                Scoring is based on contract points, bonuses, and penalties. Each trick above six earns points based on the suit, 
-                with additional bonuses for slams and honors. If the contract is not met, defenders score points instead. 
-            </p>
-        </div>
-    </div>
+    <main id="main-content">
+        <section id="gameplay-page">
+            <fieldset>
+                <legend><strong>Gameplay</strong></legend>
+                <div class="gameplay-info">
+                    <p class="gameplay-info-text">
+                        Bridge is a classic trick-taking card game played with four players in two partnerships. 
+                        The game is divided into two main phases: bidding and play. 
+                        During the bidding phase, players take turns predicting how many tricks their team can win, 
+                        based on their cards. The highest bid determines the "contract" and which team will try to meet it. 
+                        In the play phase, players play one card each round (a trick), 
+                        and the highest card in the leading suit—or a trump suit if declared—wins the trick. Strategy, 
+                        communication, and memory are key, as players must work with their partner to outsmart their opponents 
+                        and fulfill their contract.
+                    </p>
+                </div>
+            </fieldset>
+        </section>
 
-    <div class="section" id="strategies">
-        <div class="strategy-box">
-
-            <div class="strategy-definitions">
-                <h3 class="strategy-heading">
-                    Counting Cards
-                </h3>
-                <ul>
-                    <li class="strategy-list">
-                        <p class="strategy-text">
-                            <span class="strategy-meaning"></span> Keep track of the suits that have been played to deduce what remains in each player’s hand. 
-                            This allows for better planning when deciding which cards to play next.
-                            Example: If you notice that all hearts have been played, you can confidently discard a heart without worrying about losing a trick.
-                            Advanced Tip: Track both high and low cards to anticipate when opponents run out of certain suits.
-                    </li>
+        <section>
+            <fieldset>
+                <legend><strong>Strategies</strong></legend>
+                <div id="strategies">
+                    <div class="strategy-box">
+                        <div class="strategy-definitions">
+                            <h3 class="strategy-heading">
+                                Counting Cards
+                            </h3>
+                            <ul>
+                                <li class="strategy-list">
+                                    <p class="strategy-text">
+                                        Keep track of the suits that have been played to deduce what remains in each player's hand. 
+                                        This allows for better planning when deciding which cards to play next.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                     
-                </ul>
-            </div>
-
-            <div class="strategy-pros-cons">
-                <p class="pros-cons-text">
-                    <span class="strategy-meaning">Benefit:</span> Helps predict opponents’ remaining cards, improving decision-making.
-                </p> 
-                <p class="pros-cons-text">
-                    <span class="strategy-meaning">Downsides:</span> Requires strong memory and focus, which can be challenging for beginners.
-                </p> 
-            </div>
-
-
-
-        </div>
-        <div class="strategy-box">
-
-            <div class="strategy-definitions">
-                <h3 class="strategy-heading">
-                    Finessing
-                </h3>
-                <ul>
-                    <li class="strategy-list">
-                        <p class="strategy-text">
-                            <span class="strategy-meaning"></span> A finesse is a tactical play that increases your chances of winning a trick with a lower honor card. 
-                            You lead from one hand and play a lower honor, hoping your opponent does not have the highest card in the suit.
-                            Example: If you hold the Queen and Jack of Spades and suspect your left-hand opponent has the King, you can finesse by 
-                            leading towards the Queen, hoping the King is played later.
-                            Advanced Tip: Be aware of defender signals and previous tricks to estimate the likelihood of success.
-                        </p>
-                    </li>
+                    <div class="strategy-box">
+                        <div class="strategy-definitions">
+                            <h3 class="strategy-heading">
+                                Finessing
+                            </h3>
+                            <ul>
+                                <li class="strategy-list">
+                                    <p class="strategy-text">
+                                        A finesse is a tactical play that increases your chances of winning a trick with a lower honor card. 
+                                        You lead from one hand and play a lower honor, hoping your opponent does not have the highest card in the suit.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                     
-                </ul>
-            </div>
+                    <div class="strategy-box">
+                        <div class="strategy-definitions">
+                            <h3 class="strategy-heading">
+                                Communication with Partner
+                            </h3>
+                            <ul>
+                                <li class="strategy-list">
+                                    <p class="strategy-text">
+                                        Bridge has standardized bidding conventions and play signals to help partners convey 
+                                        information about their hands. This includes bidding strength, suit preference, and defensive signals.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </section>
 
-            <div class="strategy-pros-cons">
-                <p class="pros-cons-text">
-                    <span class="strategy-meaning">Benefit:</span>  Allows you to win tricks with lower honor cards, maximizing your hand’s potential.
-                </p> 
-                <p class="pros-cons-text">
-                    <span class="strategy-meaning">Downsides:</span> Misses value by not betting or raising enough, allowing opponents to dictate the pace and exploit passivity.
-                </p> 
-            </div>
-            
-        </div>
-        <div class="strategy-box">
+        <section>
+            <fieldset>
+                <legend><strong>Famous Players</strong></legend>
+                <div id="players-page">
+                    <div class="player-boxes">
+                        <figure class="player-box">
+                            <img class="player-image" src="images/bridges1.jpeg" alt="Bill gates bridge player">
+                            <figcaption class="player-text">
+                                Bill Gates a passionate bridge player
+                            </figcaption>
+                        </figure> 
+                        <figure class="player-box">
+                            <img class="player-image" src="images/bridges2.jpeg" alt="Omar Sharif bridge player">
+                            <figcaption class="player-text">  
+                                Omar Sharif, a person who loves bridges card game
+                            </figcaption>
+                        </figure>
+                        <figure class="player-box">
+                            <img class="player-image" src="images/bridges3.jpeg" alt="Martina Navratilova bridge player">
+                            <figcaption class="player-text">
+                                Martina Navratilova
+                            </figcaption>
+                        </figure>
+                        <figure class="player-box">
+                            <img class="player-image" src="images/bridges4.jpg" alt="Isaac Mizrahi bridge player">
+                            <figcaption class="player-text">
+                                Isaac Mizrahi
+                            </figcaption>
+                        </figure>
+                        <figure class="player-box">
+                            <img class="player-image" src="images/bridges5.jpg" alt="Warren Buffet bridge player">
+                            <figcaption class="player-text">
+                                Warren Buffet
+                            </figcaption>
+                        </figure>
+                        <figure class="player-box">
+                            <img class="player-image" src="images/bridges6.jpg" alt="Buster Keaton bridge player">
+                            <figcaption class="player-text">
+                                Buster Keaton
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </fieldset>
+        </section>
 
-            <div class="strategy-definitions">
-                <h3 class="strategy-heading">
-                    Communication with Partner
-                </h3>
-                <ul>
-                    <li class="strategy-list">
-                        <p class="strategy-text">
-                            <span class="strategy-meaning"></span>Bridge has standardized bidding conventions and play signals to help partners convey 
-                            information about their hands. This includes bidding strength, suit preference, and defensive signals.
-                            Example: Using the Stayman convention, a bid of 2♣ after a 1NT opening asks if the partner has a four-card major suit.
-                            Advanced Tip: Defensive signals like attitude (high card = encouragement, low card = discouragement) can guide your
-                             partner in choosing which suit to play.
-                        </p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="strategy-pros-cons">
-                <p class="pros-cons-text">
-                    <span class="strategy-meaning">Benefit:</span> Helps build a strong partnership by conveying hand strength and suit preference.
-                </p> 
-                <p class="pros-cons-text">
-                    <span class="strategy-meaning">Downsides:</span> Miscommunication or misinterpretation of signals can lead to poor decisions.
-                </p> 
-            </div>
-
-        </div>
-    </div>
-
-    <div class="section" id="players-page">
-        <div class="player-heading-row">
-            <h2 class="player-heading">
-                Famous Players
-            </h2>
-        </div>
-
-        <div class="player-boxes">
-            
-            <figure class="player-box">
-                <img class="player-image" src="images/bridges1.jpeg" alt="Bill gates bridge player">
-                <figcaption class="player-text">
-                    Bill Gates, a passionate bridge player
-                </figcaption>
-            </figure> 
-            <figure class="player-box">
-                <img class="player-image" src="images/bridges2.jpeg" alt="Omar Sharif bridge player">
-                <figcaption class="player-text">  
-                    Omar Sharif, a person who loves bridges card game 
-                </figcaption>
-            </figure>
-            <figure class="player-box">
-                <img class="player-image" src="images/bridges3.jpeg" alt="Martina Navratilova bridge player">
-                <figcaption class="player-text">
-                    Martina Navratilova
-                </figcaption>
-            </figure>
-            <figure class="player-box">
-                <img class="player-image" src="images/bridges4.jpg" alt="Isaac Mizrahi bridge player">
-                <figcaption class="player-text">
-                    Isaac Mizrahi
-                </figcaption>
-            </figure>
-            <figure class="player-box">
-                <img class="player-image" src="images/bridges5.jpg" alt="Warren Buffet bridge player">
-                <figcaption class="player-text">
-                    Warren Buffet
-                </figcaption>
-            </figure>
-            <figure class="player-box">
-                <img class="player-image" src="images/bridges6.jpg" alt="Buster Keaton bridge player">
-                <figcaption class="player-text">
-                    Buster Keaton, an ancient bridges card player
-                </figcaption>
-            </figure>
-        </div>
-    </div>
-
-    <div class="section" id="term-page">
-
-        <div class="term-heading-row">
-            <h2 class="term-heading">
-                Popular Terms
-            </h2>
-        </div>
-
-        <div class="term-info">
-            <div class="term-box">
-                <h3 class="term-box-heading">
-                    Trump Suit
-                </h3>
-                <p class="term-text">
-                    In bridge, the trump suit is the most powerful suit in a given hand, determined during the bidding phase. Cards in the trump suit outrank all other suits, 
-                    meaning even the lowest-ranked trump card can beat the highest card of any non-trump suit. For example, if spades are declared as trumps, even a 2♠ can win 
-                    over an Ace♦. Knowing when to play trumps is crucial for both declarers and defenders. A common strategy is to "draw trumps," meaning the declarer plays trump
-                     cards early to remove opponents' trumps, preventing them from using them later to win tricks.
-
-
-                </p>
-            </div>
-            <div class="term-box">
-                <h3 class="term-box-heading">
-                    Dummy
-                </h3>
-                <p class="term-text">
-                    The dummy is the declarer’s partner, whose role is unique compared to other players. After the opening lead, the dummy places their entire hand face-up on the table
-                    , allowing everyone to see their cards. However, the dummy does not actively play; instead, the declarer makes decisions for both their own hand and the dummy’s hand. 
-                    Since the declarer has full visibility of both hands, they can plan their plays strategically. The dummy’s position provides an advantage but also puts pressure on the declarer to use both hands effectively to fulfill the contract.
-                </p>
-            </div>
-            <div class="term-box">
-                <h3 class="term-box-heading">
-                    Contract
-                </h3>
-                <p class="term-text">
-                    The contract is the final bid that dictates the conditions for the hand, including how many tricks the declaring side must win and whether a trump suit or no trump is in play. For example, a contract of 4♥ means the 
-                    declarer’s side must win at least 10 tricks (6 base + 4 bid) with hearts as the trump suit. Failing to meet the contract results in penalties for the declarer’s side, while fulfilling or exceeding the contract can earn bonus points. 
-                    Skilled players analyze their hand strength carefully before bidding to avoid setting an unrealistic contract that could lead to penalties.
-                </p>
-            </div>
-            <div class="term-box">
-                <h3 class="term-box-heading">
-                    Finesse
-                </h3>
-                <p class="term-text">
-                    A finesse is a strategic technique used to increase the chances of winning a trick with a lower honor card by leading strategically. It is based on the assumption that an opponent holds a key higher-ranking card and can be forced to play it 
-                    unfavorably. For example, if a player holds Q-J in a suit and suspects that an opponent holds the K, they may lead towards the Q, hoping the K is in the second-hand position and does not get played. A successful finesse allows the player to win a trick
-                     without needing the highest card in that suit. However, finessing is not guaranteed and requires careful observation of previous plays to assess whether the strategy is likely to succeed.
-                </p>
-            </div>
-        </div>
-    </div>
+        <section>
+            <fieldset>
+                <legend><strong>Popular Terms</strong></legend>
+                <div id="term-page">
+                    <div class="term-info">
+                        <div class="term-box">
+                            <h3 class="term-box-heading">
+                                Trump Suit
+                            </h3>
+                            <p class="term-text">
+                                In bridge, the trump suit is the most powerful suit in a given hand, determined during the bidding phase. Cards in the trump suit outrank all other suits, 
+                                meaning even the lowest-ranked trump card can beat the highest card of any non-trump suit.
+                            </p>
+                        </div>
+                        <div class="term-box">
+                            <h3 class="term-box-heading">
+                                Dummy
+                            </h3>
+                            <p class="term-text">
+                                The dummy is the declarer's partner, whose role is unique compared to other players. After the opening lead, the dummy places their entire hand face-up on the table
+                                , allowing everyone to see their cards.
+                            </p>
+                        </div>
+                        <div class="term-box">
+                            <h3 class="term-box-heading">
+                                Contract
+                            </h3>
+                            <p class="term-text">
+                                The contract is the final bid that dictates the conditions for the hand, including how many tricks the declaring side must win and whether a trump suit or no trump is in play.
+                            </p>
+                        </div>
+                        <div class="term-box">
+                            <h3 class="term-box-heading">
+                                Finesse
+                            </h3>
+                            <p class="term-text">
+                                A finesse is a strategic technique used to increase the chances of winning a trick with a lower honor card by leading strategically.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </section>
+    </main>
 
     <footer>
-        
         <a href="form.html" target="_blank">Contact Us</a>
-
         <cite>
             &copy;https://www.acbl.org/learn/
             &copy;https://bicyclecards.com/how-to-play/bridge
@@ -329,12 +262,6 @@
             &copy;https://images.app.goo.gl/TkXfBjSqXWwjJeJD8
             &copy;https://en.wikipedia.org/wiki/Contract_bridge
         </cite>
-        
-
-
-
     </footer>
-
-
 </body>
 </html>

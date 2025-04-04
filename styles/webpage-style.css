@@ -301,11 +301,7 @@ main {
 
 
 #term-page {
-    display: grid;
-    grid-template-rows: 1fr 5fr;
-
     background-color: #4A5054;
-    align-items: center;
 }
 
 .term-heading-row {
@@ -313,15 +309,6 @@ main {
     align-self: flex-end;
     justify-self: center;
 
-}
-
-
-#term-page {
-    display: grid;
-    grid-template-rows: 1fr 5fr;
-
-    background-color: #4A5054;
-    align-items: center;
 }
 
 .term-heading-row {
@@ -336,11 +323,6 @@ main {
     grid-template-columns: 1fr 1fr;
     align-self: flex-start;
 
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 3rem;
-
-    text-align: center;
 }
 
 .term-box {
@@ -390,7 +372,7 @@ td {
     display: flex;
     justify-content: center;
 
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .stripped-row {

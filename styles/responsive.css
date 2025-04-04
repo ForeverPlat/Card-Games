@@ -52,8 +52,7 @@ html, body {
 
     .player-boxes {
         grid-template-columns: 1fr;
-        margin-left: 5%;
-        margin-right: 5%;
+
     }
 
     .term-info {
@@ -80,8 +79,7 @@ html, body {
 
     .player-boxes {
         grid-template-columns: 1fr 1fr;
-        margin-left: 10%;
-        margin-right: 10%;
+
     }
 
 }
@@ -95,7 +93,7 @@ html, body {
     }
 
     .player-boxes {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr ;
     }
 
     #strategies {
