@@ -204,6 +204,7 @@ main {
 .strategy-box {
     background-color: #7d7979;
     padding-bottom: 5%;
+    width: 100%;
 
     border: 3px;
     border-color: black;

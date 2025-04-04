@@ -173,7 +173,14 @@ a:hover {
         grid-template-columns: 1fr;
     }
 
+}
 
-    
-
+@media (min-width: 790px) {
+    body {
+        padding-top: 10%;
+        max-width: 790px;
+        margin: 0 auto;
+        background-color: #2E3234;
+        height: auto;
+    }
 }
