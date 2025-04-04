@@ -6,26 +6,24 @@
 }
 
 body {
-    height: 600vh;
     min-width: 300px;
-
     display: flex;
     flex-direction: column;
-
     background-color: #2E3234;
+    padding-top: 120px; 
 }
 
 .section {
     flex: 1;
+    min-height: calc(100vh - 120px);
+    padding: 20px 0; 
 }
 
-/*consider adding a general info text styling*/
-
-/*intro page*/
-
+/* Intro page */
 #intro-page {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    min-height: calc(100vh - 120px); 
 }
 
 .intro-info {

@@ -1,22 +1,45 @@
-/* Responsive Layouts - COMP 2511 Assignment 2 */
-
-/* ------------------- RESPONSIVE.CSS ------------------- */
-/* COMP 2511 - Assignment 2: Responsive Layout */
-
-/* General fix for horizontal overflow */
 html, body {
     min-width: 100%;
     overflow-x: hidden;
+    height: auto; 
 }
 
+
+main {
+    padding-bottom: 2rem; 
+}
+
+.navigation {
+    height: auto;
+}
+
+.header-bar {
+    height: auto;
+    min-height: 70px; /* Set a minimum height */
+}
+
+.nav-bar {
+    height: auto;
+    min-height: 50px; /* Set a minimum height */
+}
+
+/* Calculate total header height and apply padding to body */
+body {
+    padding-top: calc(80px + 50px); /* header + nav height */
+}
 
 
 /* Small devices (≤ 589px) */
 @media (max-width: 589px) {
-
+    body {
+        height: auto; 
+        padding-top: calc(120px + 50px);
+    }
+    
     main {
         display: flex;
         flex-direction: column;
+        min-height: auto; /* Remove any fixed heights */
     }
     
     .header-bar {
@@ -35,15 +58,21 @@ html, body {
         margin: 0.5rem 0;
     }
 
+    #intro-page {
+        margin-top: 17%;
+    }
+
     #intro-page,
     #history-page {
         grid-template-columns: 1fr;
         text-align: center;
+        padding: 1rem 0; 
     }
 
     .intro-image-column,
     .history-image-column {
         margin: 0 auto;
+        padding: 1rem; /* Add padding around images */
     }
 
     #strategies {
@@ -52,7 +81,7 @@ html, body {
 
     .player-boxes {
         grid-template-columns: 1fr;
-
+        gap: 1rem; /* Ensure consistent spacing */
     }
 
     .term-info {
@@ -62,26 +91,71 @@ html, body {
     .card-grid {
         grid-template-columns: 1fr;
     }
+    
+    /* Fix footer spacing */
+    footer {
+        margin-top: 2rem;
+        padding: 1rem;
+    }
 }
 
 /* Medium devices (590px – 789px) */
 @media (min-width: 590px) and (max-width: 789px) {
-
-    /* main {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-    } */
-
-    .section {
-        flex: 1;
-        margin-bottom: 3%;
+    body {
+        height: auto;
     }
 
+    /* Intro page */
+    #intro-page {
+        grid-template-columns: 1fr;
+        padding: 1rem 0;
+    }
+
+    .intro-image-column {
+        padding-left: 10%;
+    }
+    
+    .intro-info {
+        margin-bottom: 2rem;
+    }
+    
+    .intro-heading {
+        font-size: 3em;
+    }
+    
+    /* History page */
+    #history-page {
+        grid-template-columns: 1fr;
+        padding: 1rem 0;
+    }
+    
+    .history-image-column {
+        margin: 0;
+    }
+    
+    .history-info {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    /* Main content grid */
+    main {
+        grid-template-columns: 1fr;
+        width: 90%;
+        padding-bottom: 2rem;
+    }
+    
+    /* Players grid */
     .player-boxes {
         grid-template-columns: 1fr 1fr;
-
+        gap: 1rem;
     }
-
+    
+    /* Strategies */
+    .strategy-box {
+        flex: 1 1 45%;
+        min-width: 0;
+    }
 }
 
 /* Large devices (≥ 790px) */
@@ -90,14 +164,12 @@ html, body {
         max-width: 790px;
         margin: 0 auto;
         background-color: #2E3234;
+        height: auto;
     }
 
     .player-boxes {
-        grid-template-columns: 1fr 1fr 1fr ;
-    }
-
-    #strategies {
-        /* grid-template-columns: 1fr 1fr 1fr; */
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
     }
 
     .term-info {
@@ -106,5 +178,16 @@ html, body {
 
     .card-grid {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    /* Ensure footer stays at bottom */
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    main {
+        flex: 1;
     }
 }
