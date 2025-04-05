@@ -18,6 +18,7 @@
 - index-sevens.html
 - form.css
 - website accessability
+- Images
 
 ![image alt] (https://github.com/ForeverPlat/Card-Games/blob/main/contact-form.jpg)
 
